@@ -1,0 +1,17 @@
+Source: python-lxc
+Section: python
+Priority: optional
+Maintainer: Chuck Short <zulcss@ubuntu.com>
+Build-Depends: debhelper (>= 8.0.0), python-all-dev (>= 2.6), lxc-dev,
+Standards-Version: 3.9.5
+
+Package: python-lxc
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}, liblxc1
+Description: Linux container userspace tools (Python 2.x bindings)
+ Containers are insulated areas inside a system, which have their own namespace
+ for filesystem, network, PID, IPC, CPU and memory allocation and which can be
+ created using the Control Group and Namespace features included in the Linux
+ kernel.
+ .
+ This package contains the Python 2.x bindings.

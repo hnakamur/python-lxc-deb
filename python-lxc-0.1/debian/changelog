@@ -1,0 +1,39 @@
+python-lxc (0.1-0ubuntu6) xenial; urgency=medium
+
+  * No change rebuild for fixed LXC ABI.
+    LXC 1.1.0 released with a minor accidental ABI break which was fixed
+    very shortly afterwards (in 1.1.1), current python-lxc unfortunately got
+    built against that broken ABI and now that the problem has been
+    resolved, is itself breaking. (LP: #1550912)
+
+ -- Stéphane Graber <stgraber@ubuntu.com>  Sat, 09 Apr 2016 09:29:34 -0400
+
+python-lxc (0.1-0ubuntu5) vivid; urgency=medium
+
+  * No change rebuild for LXC 1.1.0 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Tue, 17 Feb 2015 20:47:38 -0500
+
+python-lxc (0.1-0ubuntu4) vivid; urgency=medium
+
+  * No change rebuild for LXC 1.1.0~rc4. 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Tue, 10 Feb 2015 09:16:36 -0500
+
+python-lxc (0.1-0ubuntu3) utopic; urgency=medium
+
+  * No change rebuild for LXC 1.1.0~alpha2.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Mon, 13 Oct 2014 13:34:52 -0400
+
+python-lxc (0.1-0ubuntu2) utopic; urgency=medium
+
+  * debian/control: Build for both i386 and amd64. 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Sun, 21 Sep 2014 14:25:56 -0400
+
+python-lxc (0.1-0ubuntu1) utopic; urgency=low
+
+  * Initial release.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Wed, 20 Aug 2014 12:56:26 -0400
