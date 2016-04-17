@@ -1,3 +1,9 @@
+python-lxc (0.1-0ubuntu7) trusty; urgency=medium
+
+  * No change rebuild on Trusty.
+
+ -- Hiroaki Nakamura <hnakamur@gmail.com>  Sun, 17 Apr 2016 17:53:36 +0900
+
 python-lxc (0.1-0ubuntu6) xenial; urgency=medium
 
   * No change rebuild for fixed LXC ABI.
